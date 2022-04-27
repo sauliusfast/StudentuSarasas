@@ -2,6 +2,8 @@
 let studentsLocalStorage = JSON.parse(localStorage.getItem(`initialStudentsData`));
 let INITIAL_STUDENT_DATA = studentsLocalStorage ? studentsLocalStorage : [];
 
+console.log('labas');
+
 // const INITIAL_STUDENT_DATA = [
 //     {
 //       name: 'Vardas 1',
@@ -393,5 +395,6 @@ document.querySelector(`input[id=${element}]`).checked = true;
 //     };
 //     console.log(student)
 // })
-// 2. Šį masyvą pridėti į localStorage.
-// 3. Puslapio perkrovimo metu iš localStorage esančio masyvo sukurti studentų sąrašą (pradinių studentų sukūrimo funkcionalumas).
+// 21. Šį masyvą pridėti į localStorage.
+// 31. Puslapio perkrovimo metu iš localStorage esančio masyvo sukurti studentų sąrašą (pradinių studentų sukūrimo funkcionalumas).
+
