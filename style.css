@@ -1,9 +1,10 @@
 body {
     margin: 20px;
+    background: #eee;
 }
 .input-div {
     display:flex; 
-    width:45%; 
+    width:80%; 
     justify-content:space-between;
 }
 
@@ -66,7 +67,7 @@ fieldset {
     color: red;
     height: 20px;
     position: absolute;
-    left: 520px;
+    left: 550px;
 }
 .input-error {
     border: 2px solid red;
